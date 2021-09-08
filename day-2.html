@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loops and Arrays</title>
+    </head>
+    <script>
+        //Create a array with 10 numbers and print only the even numbers with a loop from that array.
+
+        for (var x=0; x<=10; x++)
+        {
+            if(x === 0)
+            {
+                    console.log(x+ "is even");
+            }
+            else if(x % 2 === 0)
+            {
+                    console.log(x+ "is even");
+            }
+        }
+
+
+        //Create a array with five city names and print it in reverse order.
+
+        function string_reverse(str)
+        {
+            return str.split("").reverse().join("");
+        }
+            console.log(string_reverse("Ahmednagar"));
+            console.log(string_reverse("Delhi"));
+            console.log(string_reverse("Mumbai"));
+            console.log(string_reverse("Pune"));
+            console.log(string_reverse("Chennai"));
+    </script>
+</html>
